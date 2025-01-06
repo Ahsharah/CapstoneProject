@@ -1,4 +1,4 @@
-# Random Recipe Generator
+# Capstone Project - Recipe Generator
 
 A full-stack application that allows users to discover, search, and save recipes. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and TypeScript.
 
