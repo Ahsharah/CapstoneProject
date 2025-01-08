@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async (): Promise<void> => {
   try {
-    const conn = await mongoose.connect(process.env.MONGO_URI as string, {
+    const conn = await mongoose.connect("mongodb+srv://admin:admin@testcluster24.rwvi1.mongodb.net/?retryWrites=true&w=majority&appName=TestCluster24", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     } as mongoose.ConnectOptions);

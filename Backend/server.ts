@@ -2,7 +2,7 @@ import express, { Application, Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './src/config/database';
-//import authRoutes from './routes/authRoutes';
+import loginRoute from './src/routes/loginRoute';
 
 // Load the environment variables
 dotenv.config();
@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-//app.use('/api/auth', authRoutes);
+app.use('/api/login', loginRoute);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('API is running...');
