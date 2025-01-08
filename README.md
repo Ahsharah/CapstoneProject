@@ -66,7 +66,6 @@ A full-stack application that allows users to discover, search, and save recipes
 - Node.js
 - MongoDB
 - npm or yarn
-- npm i morgan
 
 
 ### Installation
@@ -74,7 +73,7 @@ A full-stack application that allows users to discover, search, and save recipes
 1. Clone the repository and install backend dependencies:
 
    ```bash
-   git clone https://github.com/yourusername/random-recipe-generator.git
+   git clone https://github.com/ahsharah/capstoneproject.git
   
 2. Install backend dependencies
 cd backend
