@@ -66,6 +66,8 @@ A full-stack application that allows users to discover, search, and save recipes
 - Node.js
 - MongoDB
 - npm or yarn
+- npm i morgan
+
 
 ### Installation
 
