@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from 'react';
 import { api } from '../lib/axios';
-import { useAuth } from './authContext';
+import { useAuth } from './AuthContext';
 
 const RecipeContext = createContext(null);
 
