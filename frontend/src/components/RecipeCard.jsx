@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 import { FiHeart, FiClock } from 'react-icons/fi';
 import { FaHeart } from 'react-icons/fa';
 import { useRecipes } from '../context/RecipeContext';

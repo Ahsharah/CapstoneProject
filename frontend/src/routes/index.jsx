@@ -9,7 +9,7 @@ import Register from '../pages/Register';
 import Recipes from '../pages/Recipes';
 
 import SavedRecipes from '../pages/SavedRecipes';
-import { useAuth } from '../context/authContext';
+import { useAuth } from '../context/AuthContext';
 import Home from '../pages/Home';
 import RandomRecipe from '../pages/RandomRecipe';
 
