@@ -124,6 +124,8 @@ Alexandria Walker - Ahsharah
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-## Thank you to my instructors, coherts and tutors for their guidance, patience and faith in the production of this Capstone Project.
+## Acknowledgments
+
+A heartfelt thank you to my instructors, cohort members, and tutors for their guidance, patience, and faith in the production of this Capstone Project.
 
 
