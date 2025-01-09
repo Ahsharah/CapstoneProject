@@ -110,10 +110,10 @@ GET /api/recipes/user/:id/saved-recipes: Get all saved recipes for a user.
 
 ## Future Enhancements
 
-**Add recipe filters (e.g., vegetarian, gluten-free).
-**Improve performance for large datasets with pagination.
-**Fully migrate to TypeScript and resolve errors.
-**Enhance the UI with animations and additional interactivity.
+  - Add recipe filters (e.g., vegetarian, gluten-free).
+  - Improve performance for large datasets with pagination.
+  - Fully migrate to TypeScript and resolve errors.
+
 
 ## Contributors
 
@@ -124,6 +124,6 @@ Alexandria Walker - Ahsharah
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-**Thank you to my instructors, coherts and tutors for their guidance, patience and faith in the production of this Capstone Project.
+## Thank you to my instructors, coherts and tutors for their guidance, patience and faith in the production of this Capstone Project.
 
 
