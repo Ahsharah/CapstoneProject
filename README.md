@@ -1,4 +1,4 @@
-# Recipe Finder App
+# Recipe Finder App 🍴
 
 The **Recipe Finder App** is a full-stack web application designed to help users discover, save, and manage their favorite recipes effortlessly. This project integrates an intuitive React frontend with a robust Node.js backend and MongoDB database, providing a seamless and engaging user experience.
 
