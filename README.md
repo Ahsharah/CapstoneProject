@@ -94,7 +94,7 @@ npm run dev
 
 Open the app in your browser at http://localhost:5173.
 
-API Documentation
+## API Documentation
 
 Base URL: http://localhost:5000
 Authentication Routes
@@ -108,18 +108,18 @@ GET /api/recipes/random: Get a random recipe.
 POST /api/recipes/save: Save a recipe (requires authentication).
 GET /api/recipes/user/:id/saved-recipes: Get all saved recipes for a user.
 
-Future Enhancements
+## Future Enhancements
 
 Add recipe filters (e.g., vegetarian, gluten-free).
 Improve performance for large datasets with pagination.
 Fully migrate to TypeScript and resolve errors.
 Enhance the UI with animations and additional interactivity.
 
-Contributors
+## Contributors
 
 Alexandria Walker - Ahsharah
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
