@@ -7,7 +7,7 @@ import { auth } from "./middlewares/auth";
 import authRoutes from "./routes/authRoutes";
 import recipeRoutes from "./routes/recipeRoutes";
 const app = express();
-
+import { Request, Response } from "express";
 // Middleware
 app.use(express.json());
 app.use(morgan("dev"));
@@ -15,10 +15,22 @@ app.use(morgan("dev"));
 // setup cors
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:3000', 'https://capstoneproject-b0mm.onrender.com'],
+    origin: ['http://localhost:5173', 'http://localhost:3000',
+    'https://capstone-project-frontend-eight.vercel.app',
+     'https://capstoneproject-b0mm.onrender.com',
+ config.origin],
+   
+   
     // credentials: true,
   })
 );
+
+app.get("/health",(req:Request,res:Response)=>{
+  res.json({
+    working:true
+  })
+})
+
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/recipes", auth,recipeRoutes);
