@@ -18,14 +18,14 @@ app.use(
     origin: ['http://localhost:5173', 'http://localhost:3000',
     'https://capstone-project-frontend-eight.vercel.app',
      'https://capstoneproject-b0mm.onrender.com',
- config.origin],
+ config.origin!],
    
    
     // credentials: true,
   })
 );
 
-app.get("/health",(req:Request,res:Response)=>{
+app.get("/health",(_:Request,res:Response)=>{
   res.json({
     working:true
   })

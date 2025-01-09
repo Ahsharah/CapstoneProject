@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "commonjs",
+      "lib": ["es2018", "esnext.asynciterable"],
+      "skipLibCheck": true, // Skips type checking for library files
+      "sourceMap": true,
+      "outDir": "./dist",
+      "moduleResolution": "node",
+      "removeComments": true,
+      "strict": false, // Disables all strict type-checking options
+      "noImplicitAny": false, // Allows variables to have 'any' type implicitly
+      "strictNullChecks": false, // Allows null and undefined in places where they aren't explicitly handled
+      "strictFunctionTypes": false, // Relaxes checks on function parameter and return types
+      "noImplicitThis": false, // Allows 'this' to have any type
+      "noUnusedLocals": false, // Disables reporting of unused local variables
+      "noUnusedParameters": false, // Disables reporting of unused parameters in functions
+      "noImplicitReturns": false, // Allows functions to not explicitly return a value
+      "noFallthroughCasesInSwitch": false, // Allows fallthrough cases in switch statements
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "baseUrl": "."
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*.ts"]
+  }
+  
